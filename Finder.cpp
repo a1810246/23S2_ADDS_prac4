@@ -12,6 +12,7 @@
                 result.push_back(found);
             } else {
                 result.push_back(-1);
+                break;
             }
         }
         return result;
